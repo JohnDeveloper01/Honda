@@ -1,0 +1,21 @@
+#search-footer {
+  position: relative;
+  background-color: $color-white;
+  input {
+    width: 70%;
+  }
+  #search-back {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-right: $mg-1;
+      font-size: $fs-2;
+      color: $color-blue-200;
+    }
+  }
+  &::after {
+    content: unset;
+  }
+}

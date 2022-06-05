@@ -1,0 +1,44 @@
+#vehicles-function {
+  .vehicles-function-content {
+    padding: 0 $pd-7;
+    .function-item {
+      height: 300px;
+      box-shadow: $box-shadow-2;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.5s;
+      background-color: $color-white;
+      &:hover {
+        transform: translateY(-10px);
+        .btn-go {
+          background-color: $color-white;
+          color: $color-blue-100;
+        }
+      }
+      h3 {
+        font-size: $fs-2;
+        font-weight: $fw-bold;
+        margin-bottom: $mg-1;
+        color: $color-dark-blue-200;
+      }
+      p {
+        font-size: $fs-1;
+        font-weight: $fw-300;
+        width: 90%;
+        margin: auto;
+        margin-bottom: $mg-2;
+        color: $color-dark-blue-100;
+      }
+      div {
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+  .pd-col {
+    padding: 0 $pd-1;
+  }
+}
